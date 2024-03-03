@@ -1,0 +1,86 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+html,
+body {
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.content-wrapper {
+    flex: 1;
+}
+
+footer {
+    width: 100%;
+    flex-shrink: 0;
+}
+
+
+
+#nav {
+    background-color: darkblue;
+}
+
+.box {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.rounded-input {
+    border-radius: 20px;
+    /* Adjust the border-radius value as needed */
+}
+
+.rounded-button {
+    border-radius: 20px;
+    /* Adjust the border-radius value as needed */
+}
+
+.curved-outline {
+    border-radius: 20px;
+    /* Adjust the border-radius value as needed */
+    border: 2px solid #007bff;
+    /* Adjust the border color and width as needed */
+    margin-bottom: 10px;
+    padding: 10px 20px;
+}
+
+
+/* Styling for To-Do list */
+.todo-list {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 10px;
+}
+
+/* Styling for Done list */
+.done-list {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 10px;
+}
+
+
+.task-input {
+    margin-right: 10px;
+    /* Add margin between input field and buttons */
+}
+
+.save-btn {
+    margin-right: 10px;
+}
+
+@media (max-width: 576px) {
+    #navhd {
+        font-size: 1rem;
+    }
+}
